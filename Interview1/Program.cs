@@ -11,6 +11,7 @@ namespace Interview1
         static void Main(string[] args)
         {
             Console.WriteLine(reverse("IOM"));
+            Console.WriteLine(reverseRecursively("IOM"));
             Console.ReadLine();
         }
 
@@ -18,7 +19,13 @@ namespace Interview1
         // example IOM -> MOI
         static string reverse(string input)
         {
-          
+
+            return "";
+        }
+
+        static string reverseRecursively(string input)
+        {
+
             return "";
         }
     }
